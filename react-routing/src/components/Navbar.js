@@ -7,9 +7,9 @@ import { Link, NavLink, withRouter } from "react-router-dom";
         //  console.log(this.props);
         // If you want to access router properties in other components where props are not available
         // then withRouter is used as higher order component and Component is wrapped in it so that props are accessible in that component.
-         setTimeout(() => {
-             this.props.history.push('/about')
-         }, 2000);
+        //  setTimeout(() => {
+        //      this.props.history.push('/about')
+        //  }, 2000);
          return(
              <div>
                  <ul className="navbar">
