@@ -1,0 +1,50 @@
+[
+    {
+        "pic" : "https://www.dominos.co.in/files/items/Margherit.jpg",
+        "name" : "Margherita",
+        "price" : 202,
+        "category": "veg"
+    },
+    {
+        "pic": "https://www.dominos.co.in/files/items/Farmhouse.jpg",
+        "name": "Farmhouse",
+        "price": 209,
+        "category": "veg"
+    },
+    {
+        "pic": "https://www.dominos.co.in/files/items/Peppy_Paneer.jpg",
+        "name": "Peppy-Paneer",
+        "price": 276,
+        "category": "veg"
+    },
+    {
+        "pic": "https://www.dominos.co.in/files/items/Deluxe_Veggie.jpg",
+        "name": "Deluxe-Veggie",
+        "price": 185,
+        "category": "veg"
+    },
+    {
+        "pic": "https://www.dominos.co.in/files/items/Corn_&_Cheese.jpg",
+        "name": "Cheese-N-Corn",
+        "price": 192,
+        "category": "veg"
+    },
+    {
+        "pic": "https://www.dominos.co.in/files/items/Pepper_Barbeque.jpg",
+        "name": "Pepper-Barbeque",
+        "price": 240,
+        "category": "nonveg"
+    },
+    {
+        "pic": "https://www.dominos.co.in/files/items/Chicken_Golden_Delight.jpg",
+        "name": "Chicken-Golden-Delight",
+        "price": 340,
+        "category": "nonveg"
+    },
+    {
+        "pic": "https://www.dominos.co.in/files/items/Non-Veg_Supreme.jpg",
+        "name": "Non-Veg-Supreme",
+        "price": 390,
+        "category": "nonveg"
+    }
+]
