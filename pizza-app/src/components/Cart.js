@@ -62,7 +62,11 @@ class Cart extends React.Component {
 	
 	render() {
 		let a = this.state.orders.map(item => {
-			return item.orderCount * this.props.cartDetails.find(cartItm => item.id === cartItm.id)['price'];
+			const orderItem = this.props.cartDetails.find(cartItm => item.id === cartItm.id);
+			if(orderItem) {
+				return item.orderCount * orderItem.price;
+			}
+			return 0;
 		});
 		let totalPrice = 0;
 		if (a.length) {
