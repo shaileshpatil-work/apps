@@ -14,7 +14,7 @@ const Header = () => {
     const toggle = () => setIsOpen(!isOpen);
 
     return(
-        <Navbar color="light" light expand="md" className="mb-5">
+        <Navbar color="dark" dark expand="md" className="mb-5">
             <Link to="/" className="navbar-brand">Project</Link>
             <NavbarToggler onClick={toggle} />
             <Collapse isOpen={isOpen} navbar>

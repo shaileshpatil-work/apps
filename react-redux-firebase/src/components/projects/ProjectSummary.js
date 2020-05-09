@@ -4,7 +4,7 @@ import {
     CardTitle
 } from 'reactstrap';
 
-export default function ProjectSummary() {
+const ProjectSummary = () => {    
     return (
         <Col md="12">
             <Card body>
@@ -15,3 +15,5 @@ export default function ProjectSummary() {
         </Col>
     )
 }
+
+export default ProjectSummary;
