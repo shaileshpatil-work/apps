@@ -12,7 +12,7 @@ const SignedInLinks = () => {
     return (
         <Nav className="ml-auto" navbar>
             <NavItem>
-                <NavLink to="/" className="nav-link">New Project</NavLink>
+                <NavLink to="/create" className="nav-link">New Project</NavLink>
             </NavItem>
             <NavItem>
                 <NavLink to="/" className="nav-link">Logout</NavLink>
@@ -23,7 +23,7 @@ const SignedInLinks = () => {
             <UncontrolledDropdown nav inNavbar>
                 <DropdownMenu right>
                     <DropdownItem>
-                        <NavLink to="/" className="nav-link">New Project</NavLink>
+                        <NavLink to="/create" className="nav-link">New Project</NavLink>
                 </DropdownItem>
                     <DropdownItem>
                         <NavLink to="/" className="nav-link">Logout</NavLink>

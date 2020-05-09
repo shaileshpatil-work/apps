@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
-export class SignIn extends Component {
+export class CreateProject extends Component {
     state = {
-        email: '',
-        password: ''
+        title: '',
+        content: ''
     }
 
     handleSubmit = (e) => {
@@ -21,22 +21,22 @@ export class SignIn extends Component {
     render() {
         return (
             <div className="container">
-                <h4 className="mb-4">Sign In</h4>
                 <Form onSubmit={this.handleSubmit}>
+                    <h4 className="mb-4">Create Project</h4>
                     <FormGroup>
-                        <Label for="email">Email</Label>
-                        <Input type="email" id="email" placeholder="Enter Email" onChange={this.handleChange} />
+                        <Label for="title">Title</Label>
+                        <Input type="text" id="title" placeholder="Enter Title" onChange={this.handleChange} />
                     </FormGroup>
                     <FormGroup>
-                        <Label for="password">Password</Label>
-                        <Input type="password" id="password" placeholder="Enter Password" onChange={this.handleChange} />
+                        <Label for="content">Content</Label>
+                        <Input type="textarea" id="content" placeholder="Enter Content" onChange={this.handleChange} />
                     </FormGroup>
-                    <Button>Sign In</Button>
+                    <Button>Create Project</Button>
                 </Form>
             </div>
         )
     }
 }
 
-export default SignIn
+export default CreateProject
 

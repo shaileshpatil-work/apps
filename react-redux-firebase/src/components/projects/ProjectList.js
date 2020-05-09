@@ -5,7 +5,8 @@ import ProjectSummary from './ProjectSummary';
 const ProjectList = () => {
     return (
         <Row>
-            <ProjectSummary/>          
+            <ProjectSummary/>   
+            <ProjectSummary />   <ProjectSummary/>          
         </Row>
     )
 }

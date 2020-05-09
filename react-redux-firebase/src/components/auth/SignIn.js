@@ -20,9 +20,9 @@ export class SignIn extends Component {
 
     render() {
         return (
-            <div className="container">
-                <h4 className="mb-4">Sign In</h4>
+            <div className="container">                
                 <Form onSubmit={this.handleSubmit}>
+                    <h4 className="mb-4">Sign In</h4>
                     <FormGroup>
                         <Label for="email">Email</Label>
                         <Input type="email" id="email" placeholder="Enter Email" onChange={this.handleChange}/>
