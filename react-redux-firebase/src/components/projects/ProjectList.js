@@ -2,11 +2,14 @@ import React from 'react';
 import { Row } from 'reactstrap';
 import ProjectSummary from './ProjectSummary';
 
-const ProjectList = () => {
+const ProjectList = ({projects}) => {
     return (
         <Row>
-            <ProjectSummary/>   
-            <ProjectSummary />   <ProjectSummary/>          
+            {
+                projects && projects.map(project => {
+                    return <ProjectSummary project={project} />
+                })
+            }
         </Row>
     )
 }

@@ -18,7 +18,7 @@ function App() {
           <Route path="/project/:id" component={ProjectDetails}/>
           <Route path="/signin" component={SignIn}/>
           <Route path="/Signup" component={Signup}/>
-          <Route path="/create" component={CreateProject}/>
+          <Route path="/create" component={CreateProject}/> 
           <Route component={Notfound} />
         </Switch>        
       </div>          
